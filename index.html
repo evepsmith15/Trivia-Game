@@ -11,36 +11,39 @@
     <title>Trivia Game</title>
 </head>
 
-<body>
-    <script src="assets/javascript/app.js"></script>
+<script src="assets/javascript/app.js"></script>
+<body onload="start();">
     <div class="box">
         <h1>MEME TRIVIA</h1>
-        <h3>TIME REMAINING: <span id="timer">60</span><span id="seconds"></span></h3>
+        <h3>TIME REMAINING: <span id="timer">120</span></h3>
+
         <h2>What is the meme of the month?</h2>
         <div class="container"><label class="radio-inline"><input type="radio" name="optradio" checked>CavemanSponge
                 <image src="assets/images/SpongecaveMan.jpg"></image></label>
-            <label class="radio-inline"><input type="radio" name="optradio">We're Irritating
+            <label stclass="radio-inline"><input type="radio" name="optradio">We're Irritating
                 <image src="assets/images/Were Irritating.jpg"></image></label>
             <label class="radio-inline"><input type="radio" name="optradio">CJ
                 <image src="assets/images/CJ.gif"></image></label>
             <label class="radio-inline"><input type="radio" name="optradio">Waaa
                 <image src="assets/images/Crabs Wha.png"></image></label></div>
+
         <h2>What is the most reconized twitch emote expression on Twitch?</h2>
         <div class="container2"><label class="radio-inline"><input type="radio" name="optradio1" checked>Kappa
                 <image src="assets/images/Kappa.jpg"></image> </label>
-            <label class="radio-inline"><input type="radio" name="optradio">FeelsBadMan
+            <label class="radio-inline"><input type="radio" name="optradio1">FeelsBadMan
                 <image src="assets/images/FeelsBadMan.png"></image></label>
-            <label class="radio-inline"><input type="radio" name="optradio">BibleThump
+            <label class="radio-inline"><input type="radio" name="optradio1">BibleThump
                 <image src="assets/images/BibleThump.jpg"></image></label>
-            <label class="radio-inline"><input type="radio" name="optradio">Jebaited
+            <label class="radio-inline"><input type="radio" name="optradio1">Jebaited
                 <image src="assets/images/Jebaited.png"></image></label></div>
+
         <h2>Which franchise has the most memes?</h2>
         <div class="container3">
             <label class="radio-inline"><input type="radio" name="optradio2" checked>The Office</label>
-            <label class="radio-inline"><input type="radio" name="optradio">Spongebob</label>
-            <label class="radio-inline"><input type="radio" name="optradio">Pokemon</label>
-            <label class="radio-inline"><input type="radio" name="optradio">Star Trek</label></div>
-            <button id="Submit">Submit</button>
+            <label class="radio-inline"><input type="radio" name="optradio2">Spongebob</label>
+            <label class="radio-inline"><input type="radio" name="optradio2">Pokemon</label>
+            <label class="radio-inline"><input type="radio" name="optradio2">Star Trek</label></div>
+            <button id="Submit" type ="Submit" value="Submit">Submit</button>
 
     </div>
 </body>
